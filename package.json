@@ -1,0 +1,21 @@
+{
+    "name": "diyreact",
+    "version": "3.0.0",
+    "description": "A diy alternative to React",
+    "license": "MIT",
+    "author": "nidhisingh",
+    "main": "DIYReact.js",
+    "keywords": [
+        "react"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src --out-dir dist"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.24.6",
+        "@babel/core": "^7.24.6",
+        "@babel/preset-env": "^7.24.6",
+        "@babel/preset-react": "^7.24.6"
+    }
+}
